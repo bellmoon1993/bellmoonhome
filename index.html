@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>안녕하세요 이종문입니다</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src='https://unpkg.com/splitting/dist/splitting.min.js'></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/common.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2 class="hidden"><img id="logo" src="./images/bellmoonLogo3.png" alt="홈로고">홈로고</h2>
+        <nav id="mainNav">
+            <h2 class="hidden">메인네비</h2>
+            <div class="menu-toggle">
+                <a href="#" class="menu-link">
+
+              <span class="menu-logo">
+                <img src="./images/hamburgerbar.png" alt="햄버거바">
+              </span>
+
+                    <span class="menu-icon">
+                        <span class="menu-line menu-line-1"></span>
+                        <span class="menu-line menu-line-2"></span>
+                    </span>
+
+              <span class="menu-circle">
+                <span class="menu-pulse first-pulse"></span>
+                <span class="menu-pulse second-pulse"></span>
+              </span>
+
+            </a>
+          </div>
+        <div class="menu-overlay">
+          <div class="overlay-content">
+            <ul>
+              <li><a href="#home" data-num="1">home</a></li>
+              <li><a href="#aboutme" data-num="2">about me</a></li>
+              <li><a href="#skill" data-num="5">skill</a></li>
+              <li><a href="#portfolio" data-num="11">portfolio</a></li>
+              <li><a href="#contact" data-num="12">contact</a></li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <nav id="mob-navy">
+          <div class="menu-btn">
+            <div class="line line--1"></div>
+            <div class="line line--2"></div>
+            <div class="line line--3"></div>
+          </div>
+        
+          <div class="nav-links">
+            <a href="#home" class="link">Home</a>
+            <a href="#aboutme" class="link">About me</a>
+            <a href="#skill" class="link">Skill</a>
+            <a href="#portfolio" class="link">Portfolio</a>
+            <a href="#contact" class="link">Contact</a>
+          </div>
+        </nav>
+        <nav id="sideNav">
+            <h2 class="hidden">사이드네비</h2>
+            <a href="#home" class="nav__link" data-num="1">
+                <span class="nav__link--text" data-splitting>Home</span>
+                <span class="nav__link--text" data-splitting>Home</span>
+            </a>
+            <a href="#aboutme" class="nav__link" data-num="2" >
+                <span class="nav__link--text" data-splitting>About Me</span>
+                <span class="nav__link--text" data-splitting>About Me</span>
+            </a>
+            <a href="#skill" class="nav__link" data-num="5">
+                <span class="nav__link--text" data-splitting>Skill</span>
+                <span class="nav__link--text" data-splitting>Skill</span>
+            </a>
+            <a href="#portfolio" class="nav__link" data-num="6">
+                <span class="nav__link--text" data-splitting>Portfolio</span>
+                <span class="nav__link--text" data-splitting>Portfolio</span>
+            </a>
+            <a href="#contact" class="nav__link" data-num="7">
+                <span class="nav__link--text" data-splitting>Contact</span>
+                <span class="nav__link--text" data-splitting>Contact</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="scroll1" data-num="1">
+            <h1 data-linecount="3" class="Title">신입<br>웹 퍼블리셔<br>이종문의<br>홈페이지입니다<br></h1> 
+                <p class="Title-cursive"><span>welcome<br>to my<br>homepage</span><span class="Title-dot">.</span></p>
+                <p class="scrollDown">Scroll<br> Down</p>
+                <p class="swipeUp"><span>Swipe<br>Up</span></p>
+        </section> 
+        <section id="aboutme">
+            <h2 class="sectionTitle">about me</h2>
+            <img id=profilePhoto src="./images/프로필사진1.png" alt="프로필사진">
+            <div class="aboutme part1 scroll2" data-num="2">
+                <p class="growth"><span>성장하는 신입 웹 퍼블리셔<br></span><span>이종문입니다</span></p>
+                <p>웹퍼블리싱 세계를 만나다</p>
+                <p> <span>약 2년 반 동안 인터넷 쇼핑몰 아르바이트를 하면서<br></span>
+                    <span>웹 디자인 및 퍼블리싱 업무를 하는</span><span>직원분들을 보았습니다.</span><br>
+                    <span>그 때 웹디자인 및 퍼블리싱 개념을 </span><span>처음 접하게 되었고</span><br>
+                    <span>배워보고 싶은 흥미가 생겨 웹퍼블리싱에</span><span>도전하게 되었습니다.</span></p>
+            </div>
+            <div class="aboutme part2 scroll3" data-num="3">
+              <img id=profilePhoto2 src="./images/프로필사진2.png" alt="프로필사진2">
+                <p>원활한 소통을 할 수 있는 인재</p>
+                <p><span>국비 교육을 통해 기획부터 디자인, 퍼블리싱까지</span> <span>경험하여<br>
+                  웹 구축의 전체적인 흐름을 이해한것을</span> <span>바탕으로 협업에서도<br>
+                    소통에 어려움 없이</span> <span>근무할 수 있을 것이라 생각합니다.</span> </p>
+            </div>
+            <div class="aboutme part3 scroll4" data-num="4">
+              <img id=profilePhoto3 src="./images/프로필사진3.png" alt="프로필사진3">
+                <p>오류를 통해 기본기를  익히다</p>
+                <p><span>국비교육 과정 가운데</span> <span>수 많은 오류와 실패들과<br> 
+                  마주쳤지만</span> <span>그로 인해 많은 배움을 얻을 수 있었습니다.<br></span>
+                    <span>이러한 깨달음과 경험을 바탕으로</span> <span>더욱 전문적인<br>
+                      웹퍼블리셔로</span> <span>거듭나고 싶습니다.</span></p>
+                <a href="https://drive.google.com/uc?export=download&id=1bi7klAVgdtFcpGXTudlJXkCRU24vVhyH">download resume</a>
+            </div>
+        </section>
+        <section id="skill" class="scroll5" data-num="5">
+        <h2 class="sectionTitle">skill</h2>
+          <div class="skillWrap">
+          <figure class="snip1584"><p class="skillTitle">HTML</p><img src="./images/html5.png" alt="HTML">
+              <figcaption>
+              <p class="skillText">웹 표준과 웹 접근성 준수</p>
+              <p class="skillText">시멘틱 태그 사용</p>
+              <p class="skillText">기획서와 가이드라인을<br> 작성하여
+                  체계적인 퍼블리싱 <br>작업 수행</p>
+              </figcaption>
+          </figure>
+          <figure class="snip1584"><p class="skillTitle">CSS</p><img src="./images/css3.png" alt="CSS">
+              <figcaption>
+              <p class="skillText">CSS의 구조와 속성 이해</p>
+              <p class="skillText">원하는 스타일로 코드구현 가능</p>
+              </figcaption>
+          </figure>
+          <figure class="snip1584"><p class="skillTitle">JS</p><img src="./images/javascript.png" alt="자바스크립트">
+              <figcaption>
+              <p class="skillText">필수적인 자바스크립트<br> 활용가능</p>
+              <p class="skillText">대체적인 자바스크립트<br> 해독가능</p>
+              </figcaption>
+          </figure>
+          <figure class="snip1584"><p class="skillTitle">jQuery</p><img src="./images/jQuery.png" alt="제이쿼리">
+              <figcaption>
+              <p class="skillText">웹 퍼블리싱 필수 <br>제이쿼리 요소는
+                  플러그인을 <br>사용하지 않고 제작가능</p>
+              </figcaption>
+          </figure>
+          <figure class="snip1584"><p class="skillTitle">Responsive</p><img src="./images/responsive.png" alt="반응형">
+              <figcaption>
+              <p class="skillText">크로스 브라우징을 위한<br>
+                  float, position, Media Query를
+                  활용한<br> 반응형 웹 제작이 가능</p>
+              <p class="skillText">lex와 grid 방식으로
+                  <br>반응형 웹 사이트 제작 가능</p>
+              </figcaption>
+          </figure>
+          <figure class="snip1584"><p class="skillTitle">photoshop&Illustrator</p><img src="./images/photoshop-illust.png" alt="포토샵,일러스트">
+              <figcaption>
+              <p class="skillText">포토샵과 일러스트의<br> 기본 툴을
+                  다룰 수 있으며<br> 각종 디자인 요소,
+                  웹 페이지<br> 시안 제작 가능</p>
+              </figcaption>
+          </figure>
+          </div>
+        </section>
+        <section id="portfolio" class="section4 scroll6" data-num="6"> 
+            <h2 class="sectionTitle">portfolio</h2>
+            <!-- partial:index.partial.html -->
+              <ul class="slick">
+                <!-- flip-card-container -->
+                <li>
+                <div class="flip-card-container" style="--hue: 220">
+                  <div class="flip-card">
+                
+                    <div class="card-front">
+                      <figure>
+                        <div class="img-bg"></div>
+                        <img src="./images/노브랜드버거웹이미지half.jpg" alt="노브랜드버거웹이미지썸네일1">
+                        <figcaption>노브랜드버거 리뉴얼</figcaption>
+                      </figure>
+                
+                      <ul>
+                        <li>기존의 노브랜드 버거 사이트를
+                          디자인 기획부터 퍼블리싱까지
+                          새롭게 리뉴얼하였습니다</li>
+                        <li>#본인참여 100%</li>
+                        <li>#웹퍼블리싱</li>
+                        <li>#반응형</li>
+                        <li>#리뉴얼</li>
+                        <li>#서브페이지</li>
+                      </ul>
+                    </div>
+                
+                    <div class="card-back">
+                      <figure>
+                        <div class="img-bg"></div>
+                        <img src="./images/노브랜드버거웹이미지half2.jpg" alt="노브랜드버거웹이미지썸네일2">
+                      </figure>
+                      <div class="cardBtnWrap"> 
+                      <a class=cardBtn href="https://bellmoon1993.github.io/nobrandburger/index.html" target="_blank">퍼블리싱</a>
+                      <a class=cardBtn href="https://drive.google.com/uc?export=download&id=1k0T35rt1nwXWMx86po6dPdlO7esoMYzI" target="_blank">디자인시안</a>
+                      </div>
+                      <div class="design-container">
+                        <span class="design design--1"></span>
+                        <span class="design design--2"></span>
+                        <span class="design design--3"></span>
+                        <span class="design design--4"></span>
+                        <span class="design design--5"></span>
+                        <span class="design design--6"></span>
+                        <span class="design design--7"></span>
+                        <span class="design design--8"></span>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+                </li>
+                <!-- /flip-card-container -->
+                
+                <!-- flip-card-container -->
+                <li>
+                <div class="flip-card-container" style="--hue: 170">
+                  <div class="flip-card">
+                
+                    <div class="card-front">
+                      <figure>
+                        <div class="img-bg"></div>
+                        <img src="./images/유한재단리뉴얼썸네일.jpg" alt="유한재단썸네일1">
+                        <figcaption>유한재단 리뉴얼</figcaption>
+                      </figure>
+                
+                      <ul>
+                        <li>디자인 기획부터 퍼블리싱까지
+                          모두 작업하였습니다</li>
+                        <li>#본인참여 100%</li>
+                        <li>#웹퍼블리싱</li>
+                        <li>#반응형</li>
+                        <li>#리뉴얼</li>
+                        <li>#포트폴리오</li>
+                      </ul>
+                    </div>
+                
+                    <div class="card-back">
+                      <figure>
+                        <div class="img-bg"></div>
+                        <img src="./images/유한재단리뉴얼썸네일2.jpg" alt="유한재단썸네일2">
+                      </figure>
+                      <div>
+                      <a class=cardBtn href="https://bellmoon1993.github.io/yuhanfoundation/" target="_blank">퍼블리싱</a>
+                      <a class=cardBtn href="https://drive.google.com/uc?export=download&id=1VJfb62jDvPAnz__nXG5AAzDOmyhXbt5H" target="_blank">디자인시안</a>
+                      </div>
+                      <div class="dbuttonesign-container">
+                        <!-- <span class="design design--1"></span>
+                        <span class="design design--2"></span>
+                        <span class="design design--3"></span>
+                        <span class="design design--4"></span>
+                        <span class="design design--5"></span>
+                        <span class="design design--6"></span>
+                        <span class="design design--7"></span>
+                        <span class="design design--8"></span> -->
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+                </li>
+                <!-- /flip-card-container -->
+                
+                <!-- flip-card-container -->
+                <li>
+                <div class="flip-card-container" style="--hue: 350">
+                  <div class="flip-card">
+                
+                    <div class="card-front">
+                      <figure>
+                        <div class="img-bg"></div>
+                        <img src="./images/여행프로모션_썸네일1.jpg" alt="여행프로모션_썸네일1">
+                        <figcaption>여행프로모션</figcaption>
+                      </figure>
+                      <ul>
+                        <li>컨셉 기획, 디자인 기획까지 모두 작업하였습니다</li>
+                        <li>#본인참여 100%</li>
+                        <li>#포토샵 디자인</li>
+                        <li>#서유럽 여행패키지</li>
+                      </ul>
+                    </div>
+                
+                    <div class="card-back">
+                      <!-- only if the image is necessary -->
+                      <figure>
+                        <div class="img-bg"></div>
+                        <img src="./images/여행프로모션_썸네일2.jpg" alt="여행프로모션_썸네일2">
+                      </figure>
+                      <div>
+                      <a class=cardBtn href="https://drive.google.com/uc?export=download&id=1GvVMw7eN6bf-E0nVRAQ2pezCJZdTx1nI" target="_blank">이미지파일</a>
+                      <a class=cardBtn href="https://drive.google.com/uc?export=download&id=10J9ikExK8Hu93b6_DNY9JkfyVM9EyyI6" target="_blank">원본</a>
+                      </div>
+                      <!-- can add svg here and remove these eight spans -->
+                      <div class="design-container">
+                        <span class="design design--1"></span>
+                        <span class="design design--2"></span>
+                        <span class="design design--3"></span>
+                        <span class="design design--4"></span>
+                        <span class="design design--5"></span>
+                        <span class="design design--6"></span>
+                        <span class="design design--7"></span>
+                        <span class="design design--8"></span>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </li>
+                <!-- /flip-card-container -->
+                <!-- flip-card-container -->
+                <li>
+                  <div class="flip-card-container" style="--hue: 350">
+                    <div class="flip-card">
+                  
+                      <div class="card-front">
+                        <figure>
+                          <div class="img-bg"></div>
+                          <img src="./images/이종문-시안디자인개발심화.jpg" alt="플랫아이콘썸네일1">
+                          <figcaption>UI/UX아이콘</figcaption>
+                        </figure>
+                  
+                        <ul>
+                          <li>베이스볼 Report라는 사이트의 플랫아이콘을 기획부터 제작까지 하였습니다</li>
+                          <li>#본인참여 100%</li>
+                          <li>#일러스트레이터 디자인</li>
+                          <li>#야구 플랫아이콘</li>
+                          <li>#자체제작</li>
+                          
+                        </ul>
+                      </div>
+                  
+                      <div class="card-back">
+                        <!-- only if the image is necessary -->
+                        <figure>
+                          <div class="img-bg"></div>
+                          <img src="./images/이종문-시안디자인개발심화.jpg" alt="UI/UX아이콘썸네일2">
+                        </figure>
+                        <div>
+                        <a class=cardBtn href="https://drive.google.com/uc?export=download&id=1RyqTRp6NKMxyjvK4DZm0sX1-FO-4WGLK" target="_blank">이미지파일</a>
+                        <a class=cardBtn href="https://drive.google.com/uc?export=download&id=1dBvxCeX5qUB7z3NDL-0SAWzq830Zv7ch" target="_blank">원본</a>
+                        </div>
+                        <!-- can add svg here and remove these eight spans -->
+                        <div class="design-container">
+                          <span class="design design--1"></span>
+                          <span class="design design--2"></span>
+                          <span class="design design--3"></span>
+                          <span class="design design--4"></span>
+                          <span class="design design--5"></span>
+                          <span class="design design--6"></span>
+                          <span class="design design--7"></span>
+                          <span class="design design--8"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                  <!-- /flip-card-container -->
+              </ul>
+              <div id="portBtn">
+                <a href="#" id="prev">prev</a>
+                <a href="#" id="next">next</a>
+              </div>
+        </section>
+        <section id="contact" class="scroll7" data-num="7">
+            <h2 class="contactTitle">contact</h2>
+            <img src="./images/프로필사진4.png" alt="프로필사진4">
+            <p><img src="./images/call.png" alt="전화"> 010-3658-7697</p>
+            <p><img src="./images/email.png" alt="이메일"> bellmoon1993@naver.com</p>
+            <p><img src="./images/kakao.png" alt="카카오"> bellmoon1993 <img src="./images/kakaoQR.png" alt="카카오QR"></p>
+            <small>Thanks for visiting my Website.<br>
+                Copyright © 2022 Jongmoon Lee All rights reserved.</small>
+        </section>
+    </main>
+</body>
+</html>
